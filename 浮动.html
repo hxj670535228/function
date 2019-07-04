@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #sec1{
+            background-color: black;
+            height: 200px;
+            width: 400px;
+            color: white;
+        }
+        #sec2{
+            background-color: red;
+            height: 180px;
+            width: 200px;
+            color: white;
+            float: left;
+        }
+        #sec3{
+            background-color: rgb(179, 245, 245);
+            width: 500px;
+            height: 150px;
+            color: white;
+            float:left;
+        }
+        /* rgb=red红 green 绿 blue蓝.每一个值范围0-255 */
+        #sec4{
+            background-color: rgba(0, 255, 34, 0.726);
+            width: 120px;
+            height: 600px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- 浮动特点:
+    1.会脱离正常的文档流
+    2.浮动之后元素的宽高如果不设置,则跟随内容的宽高.可以理解成把元素的性质block=>inline-block
+ -->
+    <section id="sec1">sec1</section>
+    <section id="sec2">sec2</section>
+    <section id="sec3">sec3</section>
+    <section id="sec4">sec4</section>
+</body>
+</html>
